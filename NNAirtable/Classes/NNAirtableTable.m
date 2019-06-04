@@ -28,12 +28,10 @@
 		NSError* error;
 		NSString* offset = nil;
 		for( int i=0; i<100; i++){
-			NSLog(@">>>>>>>>>>>>>>%@", @(i));
 			FBLPromise<NSDictionary*>* promise = [self selectWithName:viewName offset:offset];
 			NSDictionary* result = FBLPromiseAwait(promise, &error);
 			if( error ){
-				NSLog(@"%@", error);
-				break;
+				return error;
 			}
 			[ary addObjectsFromArray:result[@"records"]];
 			if( result[@"offset"] ){
@@ -50,8 +48,8 @@
 -(FBLPromise<NSDictionary*>*)selectWithName:(NSString*)viewName offset:(NSString*)offset{
 	return [FBLPromise async:^(FBLPromiseFulfillBlock fulfill, FBLPromiseRejectBlock reject) {
 		NSString* key = NSProcessInfo.processInfo.environment[@"AIRTABLE_API_KEY"];
+		NSAssert(key, @"Environment Variables に AIRTABLE_API_KEY をセットしてください");
 		NSString* url;
-		NSLog(@"%@", offset);
 		if( offset ){
 			url = [NSString stringWithFormat:@"https://api.airtable.com/v0/%@/%@?view=%@&offset=%@&api_key=%@", self->_base.id, self->_id, viewName, offset, key];
 		} else {
