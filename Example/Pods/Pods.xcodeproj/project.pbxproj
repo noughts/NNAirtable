@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08CED2A2311EC6BF4F4B7B5843300FF1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC71EA45D7EAF3CD716EFB7DC0D1D7 /* ReplaceMe.m */; };
+		0BA0BC192BB4938F79AAF1BB09D3DF2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		12F12438D4F53E6D183A7D44D2421686 /* Pods-NNAirtable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F02F0F5161C21ED3AF8050E0854EA60E /* Pods-NNAirtable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50447A931B4880D70FA2F35EA16A670B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		AB7F230F535D016EBCCB08665ACB61B7 /* Pods-NNAirtable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7644D909FE1D991D16CEF0FFA0C4752A /* Pods-NNAirtable_Tests-dummy.m */; };
+		AD2794E7F6B47410A107F94F5915A7ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C96FBC4D50299CB9D16011F32E537DB2 /* NNAirtable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C7ABD87F4B6D91CBA9B4DDF77753E0 /* NNAirtable-dummy.m */; };
+		DB1CC4F8153BADF701D7E407AEA05019 /* NNAirtable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4353586BAEFDEFDF91DCB829694E54 /* NNAirtable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB76E1C289FD8049076A8F6034236B04 /* Pods-NNAirtable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 075A9E67A77C06DC239C73522B866A9C /* Pods-NNAirtable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6D5375A96F5E4221211986BDA522F7 /* Pods-NNAirtable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51C53FC2F6A822E712C97AC1ED083C /* Pods-NNAirtable_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8850D9D7124784F0A94C7B8793A30C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 319570F1E4BD747EB677FF6EB48BB6DA;
+			remoteInfo = "Pods-NNAirtable_Example";
+		};
+		C7B5C8BB7F92595AE83328317D2E751C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06DE7C6D67A25F9C1F22C195FA3F572;
+			remoteInfo = NNAirtable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075A9E67A77C06DC239C73522B866A9C /* Pods-NNAirtable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NNAirtable_Example-umbrella.h"; sourceTree = "<group>"; };
+		19493D14DBB1F67C70A0F0553A03D3F0 /* Pods-NNAirtable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNAirtable_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1C4353586BAEFDEFDF91DCB829694E54 /* NNAirtable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNAirtable-umbrella.h"; sourceTree = "<group>"; };
+		2AEBEF22945CBBEC64B241EECBF76613 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		31C7ABD87F4B6D91CBA9B4DDF77753E0 /* NNAirtable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NNAirtable-dummy.m"; sourceTree = "<group>"; };
+		358A928DC9856ED9D092A39A1B5B5FAF /* NNAirtable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNAirtable-prefix.pch"; sourceTree = "<group>"; };
+		39AE077BDE19D430213334B6F6499B8F /* Pods-NNAirtable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NNAirtable_Tests.modulemap"; sourceTree = "<group>"; };
+		41E7B21DDE9499A4F6E83CE94F6B9E14 /* Pods-NNAirtable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNAirtable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53B5AC56B84B1242C6F952FE5A615236 /* NNAirtable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NNAirtable-Info.plist"; sourceTree = "<group>"; };
+		55F05B7D75B09DF845B182D51D44E4F5 /* Pods-NNAirtable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NNAirtable_Example.modulemap"; sourceTree = "<group>"; };
+		5ABC71EA45D7EAF3CD716EFB7DC0D1D7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NNAirtable/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6A1640CD0AD7791F83DC05AB14177845 /* NNAirtable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NNAirtable.framework; path = NNAirtable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7644D909FE1D991D16CEF0FFA0C4752A /* Pods-NNAirtable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NNAirtable_Tests-dummy.m"; sourceTree = "<group>"; };
+		7A1C2B02FFFA3835AD87AFBAC2BCB9A3 /* Pods-NNAirtable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNAirtable_Tests-Info.plist"; sourceTree = "<group>"; };
+		9B1E502C3FEF392530F39D8DF8AE267D /* NNAirtable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NNAirtable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9B90633648A8D7332FF7F361C40E304 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AF51C53FC2F6A822E712C97AC1ED083C /* Pods-NNAirtable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NNAirtable_Example-dummy.m"; sourceTree = "<group>"; };
+		B9B95CD9A19DA9DF2109355CDC2959BD /* Pods-NNAirtable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNAirtable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0C707190E7FAA4313330772971D1607 /* Pods-NNAirtable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NNAirtable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBF0D272D24BAF11997829AF011AB64D /* Pods-NNAirtable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNAirtable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0F856DDD18926EFFF01E8CD8C8D6E55 /* Pods_NNAirtable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NNAirtable_Example.framework; path = "Pods-NNAirtable_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6356045CF0C9F3CB5113F2F7CC1C448 /* Pods-NNAirtable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNAirtable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E67B19DF5C914D8C7217E6544A49927F /* NNAirtable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NNAirtable.xcconfig; sourceTree = "<group>"; };
+		F02F0F5161C21ED3AF8050E0854EA60E /* Pods-NNAirtable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NNAirtable_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F23A050490E3ECD5B9A7E40C352CBF86 /* Pods-NNAirtable_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNAirtable_Example-Info.plist"; sourceTree = "<group>"; };
+		F2A33E010CB478E80B6D88659F8EBA69 /* Pods-NNAirtable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NNAirtable_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FA38C322962F9237E5358BCC52254988 /* Pods-NNAirtable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNAirtable_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FA55CC24BA643E677071B4D8396CF980 /* NNAirtable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NNAirtable.modulemap; sourceTree = "<group>"; };
+		FB8B385C7D6351FD9DB78C7F9F016A65 /* Pods_NNAirtable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NNAirtable_Tests.framework; path = "Pods-NNAirtable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC1DE264650F6C82F7719CB4643D1C5 /* Pods-NNAirtable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NNAirtable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F835959FD0EBCE6CFC8899FC938A7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50447A931B4880D70FA2F35EA16A670B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5944244BCB0D1FDC72534C21ABCE5877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA0BC192BB4938F79AAF1BB09D3DF2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B6CC1D10E66C84593C7D17F1F80708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2794E7F6B47410A107F94F5915A7ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3181D4935D9B09B1448498BCB58E664C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA55CC24BA643E677071B4D8396CF980 /* NNAirtable.modulemap */,
+				E67B19DF5C914D8C7217E6544A49927F /* NNAirtable.xcconfig */,
+				31C7ABD87F4B6D91CBA9B4DDF77753E0 /* NNAirtable-dummy.m */,
+				53B5AC56B84B1242C6F952FE5A615236 /* NNAirtable-Info.plist */,
+				358A928DC9856ED9D092A39A1B5B5FAF /* NNAirtable-prefix.pch */,
+				1C4353586BAEFDEFDF91DCB829694E54 /* NNAirtable-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NNAirtable";
+			sourceTree = "<group>";
+		};
+		36A3F791D69586D2D7652210F1CC7F32 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3C3A6A320C90408CED5798BA0BA2C5E /* NNAirtable */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5A44980C383BE3C71AB8147832ECA6B1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A9B90633648A8D7332FF7F361C40E304 /* LICENSE */,
+				9B1E502C3FEF392530F39D8DF8AE267D /* NNAirtable.podspec */,
+				2AEBEF22945CBBEC64B241EECBF76613 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		76C895321F5CD1F7CD932A6783CFE113 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9754231897C2375BEDBE419E4812BA7 /* Pods-NNAirtable_Example */,
+				A8A2556178A123E9F0EE73FD4AEC589C /* Pods-NNAirtable_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A8A2556178A123E9F0EE73FD4AEC589C /* Pods-NNAirtable_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39AE077BDE19D430213334B6F6499B8F /* Pods-NNAirtable_Tests.modulemap */,
+				FBC1DE264650F6C82F7719CB4643D1C5 /* Pods-NNAirtable_Tests-acknowledgements.markdown */,
+				41E7B21DDE9499A4F6E83CE94F6B9E14 /* Pods-NNAirtable_Tests-acknowledgements.plist */,
+				7644D909FE1D991D16CEF0FFA0C4752A /* Pods-NNAirtable_Tests-dummy.m */,
+				7A1C2B02FFFA3835AD87AFBAC2BCB9A3 /* Pods-NNAirtable_Tests-Info.plist */,
+				F02F0F5161C21ED3AF8050E0854EA60E /* Pods-NNAirtable_Tests-umbrella.h */,
+				DBF0D272D24BAF11997829AF011AB64D /* Pods-NNAirtable_Tests.debug.xcconfig */,
+				E6356045CF0C9F3CB5113F2F7CC1C448 /* Pods-NNAirtable_Tests.release.xcconfig */,
+			);
+			name = "Pods-NNAirtable_Tests";
+			path = "Target Support Files/Pods-NNAirtable_Tests";
+			sourceTree = "<group>";
+		};
+		C84CB24F386642C97AD19492F510F097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A1640CD0AD7791F83DC05AB14177845 /* NNAirtable.framework */,
+				E0F856DDD18926EFFF01E8CD8C8D6E55 /* Pods_NNAirtable_Example.framework */,
+				FB8B385C7D6351FD9DB78C7F9F016A65 /* Pods_NNAirtable_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				36A3F791D69586D2D7652210F1CC7F32 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C84CB24F386642C97AD19492F510F097 /* Products */,
+				76C895321F5CD1F7CD932A6783CFE113 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9754231897C2375BEDBE419E4812BA7 /* Pods-NNAirtable_Example */ = {
+			isa = PBXGroup;
+			children = (
+				55F05B7D75B09DF845B182D51D44E4F5 /* Pods-NNAirtable_Example.modulemap */,
+				C0C707190E7FAA4313330772971D1607 /* Pods-NNAirtable_Example-acknowledgements.markdown */,
+				B9B95CD9A19DA9DF2109355CDC2959BD /* Pods-NNAirtable_Example-acknowledgements.plist */,
+				AF51C53FC2F6A822E712C97AC1ED083C /* Pods-NNAirtable_Example-dummy.m */,
+				F2A33E010CB478E80B6D88659F8EBA69 /* Pods-NNAirtable_Example-frameworks.sh */,
+				F23A050490E3ECD5B9A7E40C352CBF86 /* Pods-NNAirtable_Example-Info.plist */,
+				075A9E67A77C06DC239C73522B866A9C /* Pods-NNAirtable_Example-umbrella.h */,
+				FA38C322962F9237E5358BCC52254988 /* Pods-NNAirtable_Example.debug.xcconfig */,
+				19493D14DBB1F67C70A0F0553A03D3F0 /* Pods-NNAirtable_Example.release.xcconfig */,
+			);
+			name = "Pods-NNAirtable_Example";
+			path = "Target Support Files/Pods-NNAirtable_Example";
+			sourceTree = "<group>";
+		};
+		F3C3A6A320C90408CED5798BA0BA2C5E /* NNAirtable */ = {
+			isa = PBXGroup;
+			children = (
+				5ABC71EA45D7EAF3CD716EFB7DC0D1D7 /* ReplaceMe.m */,
+				5A44980C383BE3C71AB8147832ECA6B1 /* Pod */,
+				3181D4935D9B09B1448498BCB58E664C /* Support Files */,
+			);
+			name = NNAirtable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0636395C39C84D4D79703945D96B20E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1CC4F8153BADF701D7E407AEA05019 /* NNAirtable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66ED2571E0255E27C7CF0404B1B5BF0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F12438D4F53E6D183A7D44D2421686 /* Pods-NNAirtable_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971CFFE1136C4FCB9F7B6439AC45E5B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB76E1C289FD8049076A8F6034236B04 /* Pods-NNAirtable_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		319570F1E4BD747EB677FF6EB48BB6DA /* Pods-NNAirtable_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF8D171A14A48532E1CC0389CE6D5C0 /* Build configuration list for PBXNativeTarget "Pods-NNAirtable_Example" */;
+			buildPhases = (
+				971CFFE1136C4FCB9F7B6439AC45E5B3 /* Headers */,
+				A45211B380603E83ED7242D7A83DA118 /* Sources */,
+				0F835959FD0EBCE6CFC8899FC938A7D4 /* Frameworks */,
+				24411091304A95A360B8C89817A835F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6160D6D4230F3EC232DB66994BAEFCD /* PBXTargetDependency */,
+			);
+			name = "Pods-NNAirtable_Example";
+			productName = "Pods-NNAirtable_Example";
+			productReference = E0F856DDD18926EFFF01E8CD8C8D6E55 /* Pods_NNAirtable_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56E734BAAEC3E976D5BBB1CE9FA99C0D /* Pods-NNAirtable_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30528C243C9389783C38DC608C37BD0C /* Build configuration list for PBXNativeTarget "Pods-NNAirtable_Tests" */;
+			buildPhases = (
+				66ED2571E0255E27C7CF0404B1B5BF0A /* Headers */,
+				55E9488CF9912A4972232398268790B6 /* Sources */,
+				5944244BCB0D1FDC72534C21ABCE5877 /* Frameworks */,
+				290A711225345E67F0FBFCB4D17ED34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53EA8B72DF75D3CFF3BEB78C8695BAEB /* PBXTargetDependency */,
+			);
+			name = "Pods-NNAirtable_Tests";
+			productName = "Pods-NNAirtable_Tests";
+			productReference = FB8B385C7D6351FD9DB78C7F9F016A65 /* Pods_NNAirtable_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D06DE7C6D67A25F9C1F22C195FA3F572 /* NNAirtable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C585B824F9A099896F5DE1BA88C2D61 /* Build configuration list for PBXNativeTarget "NNAirtable" */;
+			buildPhases = (
+				0636395C39C84D4D79703945D96B20E6 /* Headers */,
+				17B0C1244428F13D8E68FE67FBB761EA /* Sources */,
+				B3B6CC1D10E66C84593C7D17F1F80708 /* Frameworks */,
+				7D4B961A1642C5E66B52FF3208AF6045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNAirtable;
+			productName = NNAirtable;
+			productReference = 6A1640CD0AD7791F83DC05AB14177845 /* NNAirtable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C84CB24F386642C97AD19492F510F097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06DE7C6D67A25F9C1F22C195FA3F572 /* NNAirtable */,
+				319570F1E4BD747EB677FF6EB48BB6DA /* Pods-NNAirtable_Example */,
+				56E734BAAEC3E976D5BBB1CE9FA99C0D /* Pods-NNAirtable_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24411091304A95A360B8C89817A835F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290A711225345E67F0FBFCB4D17ED34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4B961A1642C5E66B52FF3208AF6045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B0C1244428F13D8E68FE67FBB761EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96FBC4D50299CB9D16011F32E537DB2 /* NNAirtable-dummy.m in Sources */,
+				08CED2A2311EC6BF4F4B7B5843300FF1 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E9488CF9912A4972232398268790B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7F230F535D016EBCCB08665ACB61B7 /* Pods-NNAirtable_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45211B380603E83ED7242D7A83DA118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6D5375A96F5E4221211986BDA522F7 /* Pods-NNAirtable_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53EA8B72DF75D3CFF3BEB78C8695BAEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NNAirtable_Example";
+			target = 319570F1E4BD747EB677FF6EB48BB6DA /* Pods-NNAirtable_Example */;
+			targetProxy = 8850D9D7124784F0A94C7B8793A30C0A /* PBXContainerItemProxy */;
+		};
+		A6160D6D4230F3EC232DB66994BAEFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NNAirtable;
+			target = D06DE7C6D67A25F9C1F22C195FA3F572 /* NNAirtable */;
+			targetProxy = C7B5C8BB7F92595AE83328317D2E751C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6E2DF9709DD6477087E51762626C9AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67B19DF5C914D8C7217E6544A49927F /* NNAirtable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NNAirtable/NNAirtable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NNAirtable/NNAirtable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NNAirtable/NNAirtable.modulemap";
+				PRODUCT_MODULE_NAME = NNAirtable;
+				PRODUCT_NAME = NNAirtable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78BD0BA646936F98DBD35696F3E72822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6356045CF0C9F3CB5113F2F7CC1C448 /* Pods-NNAirtable_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NNAirtable_Tests/Pods-NNAirtable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NNAirtable_Tests/Pods-NNAirtable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5D7104836BEDA4DEAA3FF3BE94C596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF0D272D24BAF11997829AF011AB64D /* Pods-NNAirtable_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NNAirtable_Tests/Pods-NNAirtable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NNAirtable_Tests/Pods-NNAirtable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7CBE6314737067BF488796DCE88D11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67B19DF5C914D8C7217E6544A49927F /* NNAirtable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NNAirtable/NNAirtable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NNAirtable/NNAirtable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NNAirtable/NNAirtable.modulemap";
+				PRODUCT_MODULE_NAME = NNAirtable;
+				PRODUCT_NAME = NNAirtable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD2418B3AB967A36ACACA54C1E29864F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA38C322962F9237E5358BCC52254988 /* Pods-NNAirtable_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NNAirtable_Example/Pods-NNAirtable_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NNAirtable_Example/Pods-NNAirtable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE2FC726432051F5E508B172F00854E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19493D14DBB1F67C70A0F0553A03D3F0 /* Pods-NNAirtable_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NNAirtable_Example/Pods-NNAirtable_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NNAirtable_Example/Pods-NNAirtable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CF8D171A14A48532E1CC0389CE6D5C0 /* Build configuration list for PBXNativeTarget "Pods-NNAirtable_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2418B3AB967A36ACACA54C1E29864F /* Debug */,
+				CE2FC726432051F5E508B172F00854E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30528C243C9389783C38DC608C37BD0C /* Build configuration list for PBXNativeTarget "Pods-NNAirtable_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5D7104836BEDA4DEAA3FF3BE94C596 /* Debug */,
+				78BD0BA646936F98DBD35696F3E72822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C585B824F9A099896F5DE1BA88C2D61 /* Build configuration list for PBXNativeTarget "NNAirtable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2DF9709DD6477087E51762626C9AAC /* Debug */,
+				A7CBE6314737067BF488796DCE88D11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

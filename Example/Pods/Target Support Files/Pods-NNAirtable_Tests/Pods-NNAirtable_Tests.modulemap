@@ -1,0 +1,6 @@
+framework module Pods_NNAirtable_Tests {
+  umbrella header "Pods-NNAirtable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

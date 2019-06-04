@@ -1,0 +1,16 @@
+PODS:
+  - NNAirtable (0.1.0)
+
+DEPENDENCIES:
+  - NNAirtable (from `../`)
+
+EXTERNAL SOURCES:
+  NNAirtable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NNAirtable: 3990a033238a9b84bb3044177aad19aa6e44c56c
+
+PODFILE CHECKSUM: fcabf25e25fc8bb220893095006d51763a3b6790
+
+COCOAPODS: 1.6.1

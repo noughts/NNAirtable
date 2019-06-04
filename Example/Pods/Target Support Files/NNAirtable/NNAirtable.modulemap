@@ -1,0 +1,6 @@
+framework module NNAirtable {
+  umbrella header "NNAirtable-umbrella.h"
+
+  export *
+  module * { export * }
+}
