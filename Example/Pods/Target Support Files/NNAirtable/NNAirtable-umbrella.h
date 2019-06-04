@@ -11,6 +11,8 @@
 #endif
 
 #import "NNAirtable.h"
+#import "NNAirtableBase.h"
+#import "NNAirtableTable.h"
 
 FOUNDATION_EXPORT double NNAirtableVersionNumber;
 FOUNDATION_EXPORT const unsigned char NNAirtableVersionString[];
