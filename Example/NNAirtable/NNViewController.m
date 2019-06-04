@@ -14,10 +14,10 @@
 
 @implementation NNViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	NSLog(@"%@", NSProcessInfo.processInfo.environment[@"AIRTABLE_API_KEY"]);
 }
 
 - (void)didReceiveMemoryWarning
