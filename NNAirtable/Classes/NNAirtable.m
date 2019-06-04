@@ -10,5 +10,8 @@
 
 @implementation NNAirtable
 
+-(NNAirtableBase*)baseWithId:(NSString*)baseId{
+	return [[NNAirtableBase alloc] initWithBaseId:baseId];
+}
 
 @end

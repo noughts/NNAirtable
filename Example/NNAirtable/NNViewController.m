@@ -7,8 +7,9 @@
 //
 
 #import "NNViewController.h"
-#import <NNAirtableBase.h>
-#import <NNAirtableTable.h>
+
+#import <NNAirtable/NNAirtable.h>
+
 
 @interface NNViewController ()
 
@@ -21,7 +22,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
 //	NSLog(@"%@", NSProcessInfo.processInfo.environment[@"AIRTABLE_API_KEY"]);
 	
-	NNAirtableBase* base = [[NNAirtableBase alloc] initWithBaseId:@"appoPqFABkgY3sBH9"];
+	NNAirtable* airtable = [NNAirtable new];
+	NNAirtableBase* base = [airtable baseWithId:@"appoPqFABkgY3sBH9"];
 	NNAirtableTable* table = [base tableWithId:@"5_30"];
 	[table selectWithViewName:@"default"];
 }
