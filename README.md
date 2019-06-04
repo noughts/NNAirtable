@@ -17,7 +17,7 @@ NNAirtable is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'NNAirtable'
+pod 'NNAirtable', :git => 'git@github.com:noughts/NNAirtable.git'
 ```
 
 ## Author
