@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 @class NNAirtableBase;
-#import <FBLPromises/FBLPromises.h>
+#import "FBLPromises/FBLPromises.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
