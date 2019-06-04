@@ -11,10 +11,6 @@
 #import <NNAirtable/NNAirtable.h>
 
 
-@interface NNViewController ()
-
-@end
-
 @implementation NNViewController
 
 - (void)viewDidLoad{
@@ -25,13 +21,14 @@
 	NNAirtable* airtable = [NNAirtable new];
 	NNAirtableBase* base = [airtable baseWithId:@"appoPqFABkgY3sBH9"];
 	NNAirtableTable* table = [base tableWithId:@"5_30"];
-	[table selectWithViewName:@"default"];
+	[[table selectWithViewName:@"default"] then:^id _Nullable(NSArray * _Nullable value) {
+		NSLog(@"%@", value);
+		NSLog(@"%@", @(value.count));
+		return nil;
+	}];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+
 
 @end

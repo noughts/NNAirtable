@@ -16,6 +16,8 @@ PODS:
     - AFNetworking/NSURLSession
   - NNAirtable (0.1.0):
     - AFNetworking
+    - PromisesObjC
+  - PromisesObjC (1.2.8)
 
 DEPENDENCIES:
   - NNAirtable (from `../`)
@@ -23,6 +25,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - PromisesObjC
 
 EXTERNAL SOURCES:
   NNAirtable:
@@ -30,7 +33,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  NNAirtable: 9b2739539b2e4e6ae19b4f16684bfbf03c988f53
+  NNAirtable: a776bea933bfb723bd32c1e0e24a3353c031cc38
+  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
 
 PODFILE CHECKSUM: fcabf25e25fc8bb220893095006d51763a3b6790
 

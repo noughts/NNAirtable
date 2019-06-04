@@ -39,4 +39,5 @@ Connector to Airtable
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking'
+  s.dependency 'PromisesObjC'
 end
