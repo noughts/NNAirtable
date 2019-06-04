@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		070086AD2A8564269681DD5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		070086AD2A8564269681DD5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		09B17C05726A7A53C5EA6B6B /* Pods_NNAirtable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNAirtable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3947C11AE56BDBDFB2CEC658 /* Pods-NNAirtable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNAirtable_Example.debug.xcconfig"; path = "Target Support Files/Pods-NNAirtable_Example/Pods-NNAirtable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NNAirtable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNAirtable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7416EE16B03945F61F868301 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7416EE16B03945F61F868301 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D005BE87A304CC3FD312D32F /* Pods_NNAirtable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNAirtable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F3507B1874C5B8C66FE7D1 /* Pods-NNAirtable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNAirtable_Tests.release.xcconfig"; path = "Target Support Files/Pods-NNAirtable_Tests/Pods-NNAirtable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D56FF6E2A13417F5AF20B336 /* Pods-NNAirtable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNAirtable_Example.release.xcconfig"; path = "Target Support Files/Pods-NNAirtable_Example/Pods-NNAirtable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA950E40A36AC5D939D250A5 /* Pods-NNAirtable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNAirtable_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NNAirtable_Tests/Pods-NNAirtable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC9C66B8AF3D2D4771CF96ED /* NNAirtable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NNAirtable.podspec; path = ../NNAirtable.podspec; sourceTree = "<group>"; };
+		DC9C66B8AF3D2D4771CF96ED /* NNAirtable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NNAirtable.podspec; path = ../NNAirtable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				DA950E40A36AC5D939D250A5 /* Pods-NNAirtable_Tests.debug.xcconfig */,
 				D1F3507B1874C5B8C66FE7D1 /* Pods-NNAirtable_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -304,12 +304,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NNAirtable_Example/Pods-NNAirtable_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/NNAirtable/NNAirtable.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NNAirtable.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

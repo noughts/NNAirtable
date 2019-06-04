@@ -1,9 +1,9 @@
 {
   "name": "NNAirtable",
   "version": "0.1.0",
-  "summary": "A short description of NNAirtable.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/koichi yamamoto/NNAirtable",
+  "summary": "Connector to Airtable",
+  "description": "Connector to Airtable",
+  "homepage": "https://github.com/noughts/NNAirtable",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "koichi yamamoto": "koichi.yamamoto@smartnews.com"
   },
   "source": {
-    "git": "https://github.com/koichi yamamoto/NNAirtable.git",
+    "git": "https://github.com/noughts/NNAirtable.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "NNAirtable/Classes/**/*"
+  "source_files": "NNAirtable/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }

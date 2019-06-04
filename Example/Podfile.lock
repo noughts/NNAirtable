@@ -1,15 +1,36 @@
 PODS:
-  - NNAirtable (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - NNAirtable (0.1.0):
+    - AFNetworking
 
 DEPENDENCIES:
   - NNAirtable (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   NNAirtable:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NNAirtable: 3990a033238a9b84bb3044177aad19aa6e44c56c
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  NNAirtable: 9b2739539b2e4e6ae19b4f16684bfbf03c988f53
 
 PODFILE CHECKSUM: fcabf25e25fc8bb220893095006d51763a3b6790
 
